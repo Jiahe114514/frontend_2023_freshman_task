@@ -1,0 +1,161 @@
+/* 学完函数快点用函数重新写一下！太牛魔长了！！！ */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:rgb(242, 125, 244);
+}
+@font-face {
+    font-family: 'Font3';
+    src: url('./汉仪旗黑\ 80S.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Font1';
+    src: url('./hk4e_zh-cn.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Font2';
+    src: url('./汉仪润圆-75W.ttf') format('truetype');
+  }
+a:hover{
+    text-decoration: underline;
+}
+body{
+    background-image: url(./舰桥（爱莉）.png);
+    width: auto;
+    height: auto;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+.top{
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    
+    
+}
+li{
+    list-style-type: none;
+}
+.main{
+    height: 50px;
+    width: auto;
+    background-color: transparent;
+    margin: 15px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+.honkai3{
+    height: 50px;
+    width: auto;
+    background-color: transparent;
+    margin: 13px;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Font3';
+}
+.genshin{
+    height: 50px;
+    width: auto;
+    background-color: transparent;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Font1';
+}
+.honkaistar{
+    height: 50px;
+    width: auto;
+    background-color: transparent;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Font2';
+}
+.box{
+    width: 1600px;
+    height: auto;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+.character1 {
+    width: 150px;
+    height: 200px;
+    margin: auto;
+    padding: 0;
+    background-image: url(./终焉.jpg);
+    background-size: contain;
+    text-align: center;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.character2{
+    width: 150px;
+    height: 200px;
+    margin: auto;
+    padding: auto;
+    background-image: url(./薪炎之律者-琪亚娜.jpg);
+    background-size: contain;
+    text-align: center;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+.character3{
+    width: 150px;
+    height: 200px;
+    margin: auto;
+    padding: auto;
+    background-image: url(./凑数之律者-琪猫猫.jpg);
+    background-size: contain;
+    text-align: center;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+.content {
+    margin-top: auto;
+    text-align: center;
+ }
+.word{
+    display: block;
+    font-family: 'Font3';
+    transition: transform 0.2s ease-in-out;
+}
+.word:hover{
+    transform: scale(1.2);
+}
+.play{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 50%;
+
+}
+ .button{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 50%;
+    border: none;
+} 

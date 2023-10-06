@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>终焉之律者-琪亚娜档案</title>
+    <link rel="stylesheet" href="./终焉之律者.css">
+</head>
+<body>
+    <div>
+        <div>
+            <ul class="top">
+                <li class="main"><a href="./首页.html">首页</a></li>
+                <li class="honkai3"><a href="./崩坏三档案.html">崩坏三档案</a></li>
+                <li class="genshin"><a href="./原神档案">原神档案</a></li>
+                <li class="honkaistar"><a href="./崩坏：星穹铁道档案.html">崩坏：星穹铁道档案</a></li> 
+                <li>
+                    <button class="button1" id="play-btn">
+                        <img class="play" src="./琪宝啃月亮.jpg" alt="Play Music">
+                    </button>
+                </li>
+                <li>
+                    <button id="toggleButton">点击修改</button>
+                    <div id="hiddenContent" style="display: none;">
+                        <form id="addForm" autocomplete="off">
+                            <label>姓名：</label>
+                            <input placeholder="请输入女武神姓名" id="name" name="name" required>
+                          
+                            <label>身高：</label>
+                            <input placeholder="请输入女武神身高" id="height" name="height" required>
+
+                            <label>生日：</label>
+                            <input placeholder="请输入女武神生日" id="birthday" name="birthday" required>
+
+                            <label>年龄：</label>
+                            <input placeholder="请输入女武神生日" id="age" name="age" required>
+
+                            <label>体重：</label>
+                            <input placeholder="请输入女武神体重" id="weight" name="weight" required>
+
+                            <label>绰号：</label>
+                            <input placeholder="请输入女武神绰号" id="nickname" name="nickname" required>
+
+                            <label>一些想说的：</label>
+                            <input placeholder="有什么想对她说的么" id="saySth" name="saySth" required>
+                            <input type="submit" value="添加">
+                        </form>
+                    </div>
+                </li>
+            </ul>
+            <audio id="my-audio" src="./Da Capo.mp3" autoplay></audio></div>
+
+    </div>
+    <div class="boss">
+        <img class="zhongyan" src="./终焉立绘.jpg" alt="">
+        <div class="title">女武神档案</div>
+        <ul>
+            <li>姓名</li>
+            <li>身高</li>
+            <li>生日</li>
+            <li>年龄</li>
+            <li>体重</li>
+            <li>绰号</li>
+            <li>一些想说的</li>
+        </ul>
+
+            <!-- <table>
+                <tr>
+                    <th>姓名</th>
+                    <th>身高</th>
+                    <th>生日</th>
+                    <th>年龄</th>
+                    <th>体重</th>
+                    <th>绰号</th>
+                    <th>一些想说的</th>
+                </tr>
+            </table> -->
+            <!-- 这表格显示不出来，用ul和li勉强实现了，先注释上留着吧 -->
+            <div class="video">
+                <a href="https://www.bilibili.com/video/BV1Kj411g7Lu/?spm_id_from=333.999.0.0&vd_source=e871320d1df59c0def39669603f0a21c">
+                    <img src="./毕业旅行.jpg" alt="毕业旅行">
+                </a>
+            </div>
+
+    </div>
+    <!-- 学完dom之后加个修改操作，这是硬性要求，记住！！！一定要加！！！  -->
+    <!-- 加完了，感觉加的一坨，还不如我自己写的，淦 -->
+    <!-- 顺便给图片加个动效，表格也可以再改改 -->
+    <!-- 立绘加载时的动效搞快点！！！ -->
+    <!-- 崩三官网的页面的感觉可以直接韩，记得改,竖直举例不够可以放个毕业旅行刀人（bushi）    放完了，我不理解为啥margin-left只能设置成1000px才可以，少设一个像素就崩坏。。。-->
+    <!-- 加个左右切换按钮，可以切换上下档案-->
+    <!-- 不小心把js注释掉了结果表格可以显示了。。。 -->
+
+<script src="终焉之律者.js"></script>   
+</body>
+</html>
+
+
+
+
+<!-- 10.5更新
+目前这个信息管理模块是有bug的，描述如下；
+1,如果之前有填好的数据，点击“点击修改”按钮，之前的数据会直接消失
+2，填完数据后点收起，也会直接消失，唯一可以存留的方法就是写完，提交，直接刷新网页，这样可以留下数据
+3，点击音乐播放按钮也会清除数据！！！ -->

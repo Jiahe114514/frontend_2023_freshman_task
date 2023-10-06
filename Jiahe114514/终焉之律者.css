@@ -1,0 +1,155 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+@font-face {
+    font-family: 'Font3';
+    src: url('./汉仪旗黑\ 80S.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Font1';
+    src: url('./hk4e_zh-cn.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Font2';
+    src: url('./汉仪润圆-75W.ttf') format('truetype');
+  }
+a:hover{
+    text-decoration: underline;
+}
+.top{
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    border-bottom: 2px solid rgba(88, 57, 203, 0.5);
+}
+li{
+    list-style-type: none;
+}
+.main{
+    height: 50px;
+    width: auto;
+    background-color: transparent;
+    margin: 15px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+.honkai3{
+    height: 50px;
+    width: auto;
+    background-color: transparent;
+    margin: 13px;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Font3';
+}
+.genshin{
+    height: 50px;
+    width: auto;
+    background-color: transparent;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Font1';
+}
+.honkaistar{
+    height: 50px;
+    width: auto;
+    background-color: transparent;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Font2';
+}
+.play{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 50%;
+
+}
+ .button1{
+    margin:auto;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 50%;
+} 
+body{
+    background-image: url(./终焉壁纸.png);
+    width: auto;
+    height: auto;
+    background-size: cover; 
+    background-attachment: fixed;
+
+
+}
+.boss{
+    width: 100%;
+    height: 1200px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+    margin-top: 20px;
+}
+.zhongyan{
+    background-image: url(./终焉立绘.png);
+    width: 900px;
+    height: 1200px;
+    background-size: cover;
+    float: left;
+    margin-right: 100px; 
+
+}
+table,th,td{
+    border: 1px solid #000;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+#hiddenContent {
+    display: none;
+  }
+.show{
+    width: 800px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 25%;
+    margin:auto;
+    border: none;
+    background-color: rgba(205, 96, 230, 0.5);
+    font-size: larger;
+}
+ul li{
+    display: inline;
+}
+.video{
+    width: 700px;
+    height: 525px;
+    border: 1px solid black;
+    margin-left: 1000px;
+    margin-top: 25px;
+}
+.title{
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Font3';
+    text-align: center;
+    margin-top: 40px;
+}
+li{
+    margin: 10px;
+}
